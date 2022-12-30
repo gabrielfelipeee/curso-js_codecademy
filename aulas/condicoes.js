@@ -35,3 +35,10 @@ if (jogarFut) {
 } else {
     console.log('Não vamos jogar!')
 }
+
+
+
+/*
+
+else if => 
+*/
