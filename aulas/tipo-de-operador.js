@@ -12,4 +12,5 @@ console.log(typeof sim)
 
 
 
+
 // typeof => Retorna o tipo de valor de uma variável

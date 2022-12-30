@@ -30,6 +30,7 @@ console.log(`Animal: ${animalPadrao}`)
 
 
 
+
 // Ex . de variável com valor false
 
 let num = 0

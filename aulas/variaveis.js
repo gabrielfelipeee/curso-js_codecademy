@@ -12,6 +12,7 @@ console.log(number)
 
 
 
+
 const nome = 'Gabriel' // Aqui é uma string
 console.log(nome)
 

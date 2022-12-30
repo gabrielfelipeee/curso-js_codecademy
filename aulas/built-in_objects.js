@@ -12,6 +12,7 @@ console.log(Number.isInteger(10))
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 
+
 /*
                                     Objetos embutidos
 Math.random() gera um número aleatório entre 0 e 1. (Ambos inclusos)

@@ -9,6 +9,7 @@ Info:
 */
 
 
+
 let idadeHumana = 8 // anos-humanos
 
 let primeirosAnos = 2 // 2 primeiros anos-caninos

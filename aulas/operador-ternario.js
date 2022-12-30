@@ -5,6 +5,7 @@ let jogar = true
 jogar ? console.log('Vou jogar!') : console.log('Não vou jogar!');
 
 
+
 /*
 Explicação:
 

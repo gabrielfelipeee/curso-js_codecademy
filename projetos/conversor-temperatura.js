@@ -7,6 +7,7 @@ fahrenheit = Math.floor(fahrenheit) // Arredonda para baixo, para o número inte
 let newton = celsius * (33 / 100) // Converte °C para a escala de newton.
 newton = Math.floor(newton)  // Arredonda para baixo, para o número inteiro mais próximo.
 
+
 console.log(`The temperature is ${fahrenheit} degress Fahrenheit.`)
 
 console.log(`The temperature is ${newton} degress Scale Newton.`)
