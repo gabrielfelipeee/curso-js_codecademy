@@ -16,7 +16,15 @@ Explicação:
 
 */
 
-// Outro ex.
+// Outros ex.
 
 let n = 16
 n === 15 ? console.log('Verdadeiro') : console.log('Falso')
+
+//-----------------------------
+
+let nomeUsuario = prompt('Qual seu nome?')
+let nomePadrao = 'Fulano'
+let identificacao = nomeUsuario ? nomeUsuario : nomePadrao;
+
+alert(`Olá ${identificacao}! seja bem-vindo!`);
