@@ -23,7 +23,7 @@ console.log(teste)   // Retorna undefined, pois não tem valor nela.
 
 
 /* 
-Valores NÂO podem ser alterados | a variável nome sempre vai ser a string 'Gabriel'. Constante
+const => Valores NÂO podem ser alterados | a variável nome sempre vai ser a string 'Gabriel'. Constante
 
 Se tentarmos alterar o valor ocorrerá um erro.
 */

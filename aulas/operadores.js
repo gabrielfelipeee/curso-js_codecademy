@@ -40,7 +40,7 @@ console.log(!andar) // Retorna true
 
 
 let players = 23
-let  games = 8
+let games = 8
 
 if (players === 23 && games != 5) { // Ambas precisam ser true para executar if
     console.log('Sim')
