@@ -41,5 +41,26 @@ if (jogarFut) {
 
 /*
 
-else if => 
+else if =>
+
+
+- A declaração else if permite mais de dois resultados possíveis. Você pode adicionar quantas else if quiser, para fazer condicionais mais complexas.
+
+- A else if sempre vem depois de if.
+
+Ex:
 */
+
+let cor = 'Preto'
+
+if (cor === 'azul') {
+    console.log('O carro é azul!')
+} else if (cor === 'verde') {
+    console.log('O carro é verde!')
+} else if (cor === 'preto') {
+    console.log('O carro é preto!')
+} else if (cor === 'branco') {
+    console.log('O carro é branco!')
+} else {
+    console.log('Carro desconhecido!')
+}
