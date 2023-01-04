@@ -50,3 +50,30 @@ function calcularArea(largura, altura) { // altura e largura são os parâmetros
 }
 //chamando a função
 calcularArea(10, 10); // 10 e 10 são os argumentos.
+
+
+
+
+
+/*
+Parâmetros padrão:
+
+- Os parâmetros padrão permitem que os parâmetros tenham um valor predeterminado caso não haja nenhum argumento passado para a função ou se o argumento for undefined quando chamado.
+
+Ex:
+*/
+function greeting (nome = 'usuário') { // usuário => valor padrão
+    console.log(`Hello, ${nome}!`)
+}
+greeting(); // Hello, usuário!
+greeting('Gabriel'); // Hello, Gabriel!
+
+/*
+Explicação:
+
+No exemplo acima, usamos o = operador para atribuir ao parâmetro nome um valor padrão de 'usuário'. Isso é útil caso desejemos incluir uma saudação padrão não personalizada!
+
+Quando o código chama, greeting('Gabriel')o valor do argumento é passado e, 'Gabriel', substituirá o parâmetro padrão de 'usuário' logar 'Hello, Gabriel!'no console.
+
+Quando não há um argumento passado para greeting(), o valor padrão de 'usuário' é usado e 'Hello, usuário!'registrado no console.
+*/
