@@ -31,8 +31,6 @@ function soma(n, n2) {
   Funções auxiliares:
 
   - Também podemos usar o valor de retorno de uma função dentro de outra função. Essas funções sendo chamadas dentro de outra função geralmente são chamadas de funções auxiliares.
-
-  -
   
   Ex: Se quiséssemos definir uma função que converta a temperatura de Celsius para Fahrenheit, poderíamos escrever duas funções como:
 
@@ -56,7 +54,7 @@ function soma(n, n2) {
 
  - fahrenheit() é chamado e 15 é passado como um argumento.
 
-- O bloco de código dentro de fahrenheit()chama mult() e passa 15 como um argumento.
+- O bloco de código dentro de fahrenheit() chama mult() e passa 15 como um argumento.
 
 - mult() recebe o argumento de 15 para o parâmetro num.
 

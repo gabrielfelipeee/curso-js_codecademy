@@ -53,36 +53,56 @@ console.log(calcularArea(5, 5))
 
 
 /*
-Funções de seta de corpo conciso:
+Funções de seta:
 
-- As funções que usam apenas um único parâmetro não precisam que esse parâmetro seja colocado entre parênteses. No entanto, se uma função tiver zero ou vários parâmetros, os parênteses serão necessários
-
-- Um corpo de função composto por um bloco de linha única não precisa de chaves. Sem as chaves, o que quer que a linha avalie será retornado automaticamente. O conteúdo do bloco deve seguir imediatamente a seta => e a return pode ser removida. Isso é conhecido como retorno implícito .
+As expressões de função de seta foram introduzidas no ES6. Essas expressões são limpas e concisas. A sintaxe para uma expressão de função de seta não requer a palavra-chave function e usa uma seta => para separar o(s) parâmetro(s) do corpo.
 
 Ex:
 */
+/* Se tivermos uma função:
 
-// Se tivermos uma função:
-
-/*
 const numero = (num) => {
     return num * num;
   };
 
+  Podemos refatorar a essa função para:
 */
-
-  // Podemos refatorar a essa função para:
-
   const numero = num => num * num 
 
 
+
   /*
-- Os parênteses ao redor num foram removidos, pois possui um único parâmetro.
+  Existem diversas variações de funções de seta:
 
-- As chaves {} foram removidas, pois a função consiste em um bloco de linha única.
+ - As funções de seta com um único parâmetro não exigem () a lista de parâmetros.
 
-- A return foi removida, pois a função consiste em um bloco de linha única.
+ Ex:
   */
+ // Função de seta sem parâmetro
+ const saudacao = () => {
+  return 'Hello, World!'
+ }
+
+ // Com um único parâmetro
+ const verificarPeso = peso => { // () no parâmetro arguumento opcional
+  return `O peso da sua bagagem é ${peso} kg.`
+ }
+ console.log(verificarPeso(50))
+
+ // Com dois parâmetros
+ const somar = (n, n2) => {
+  return  n + n2
+ }
+ console.log(somar(10, 2))
+
+ //
 
 
-// É bom estar ciente das diferenças entre expressões de função, funções de seta e declarações de função. 
+
+ /*
+ Funçoẽs de seta concisa:
+ 
+  - As funções de seta com uma única expressão podem usar o corpo da função concisa que retorna o resultado da expressão sem a palavra-chave return.
+ */
+const multiplicacao = (x, y) => x * y
+console.log(multiplicacao(10, 10))
