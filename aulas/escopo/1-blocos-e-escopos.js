@@ -25,24 +25,22 @@ const cor = 'blue'
 const returnCor = () => {
     return cor
 }
-
 console.log(returnCor())
 
 /*
 - Mesmo que a variável cor seja definida fora do bloco, ela pode ser acessada no bloco funcional, dando-lhe escopo global. Por sua vez, cor pode ser acessado dentro da funçao returnCor.
 */
-
 // Outro ex;
 
 const cidade  = 'Londres'
 const pais = 'Inglaterra'
 const continente = 'Europa'
-
 function localizacao() {
     return `${cidade} é a capital da ${pais}, país que está localizado na ${continente}.`
 }
-
 console.log(localizacao())
+
+
 
 /*
 Escopo do bloco:
@@ -58,7 +56,6 @@ const futebol = () => {
     console.log(time)
 }
 futebol();
-
 //console.log(time) //vai dar erro, pois time está dentro da função.
 
 /*
