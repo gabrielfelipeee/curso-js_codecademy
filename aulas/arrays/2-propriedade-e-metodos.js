@@ -9,6 +9,7 @@ console.log(num.length)
 
 
 
+
 /*
 Método .push()
 
