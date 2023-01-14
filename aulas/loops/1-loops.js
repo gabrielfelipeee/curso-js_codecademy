@@ -8,6 +8,7 @@ console.log(estadios[2]);
 
 
 
+
 /*
 Loops:
 - Um loop é uma ferramenta de programação que repete um conjunto de instruções até que uma condição especificada, chamada de condição de parada, seja alcançada.
