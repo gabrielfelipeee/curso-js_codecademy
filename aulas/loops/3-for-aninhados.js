@@ -18,4 +18,4 @@ for (let i = 0; i < campeaoUCL.length; i ++) {
         }
     }
 }
-console.log(campeaoAmbas); 
+console.log(campeaoAmbas);
