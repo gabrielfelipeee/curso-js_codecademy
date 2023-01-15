@@ -11,7 +11,7 @@ for (let i = 0; i < animais.length; i ++) {
 // Outro ex
 let paises = ["Inglaterra", "Escócia", "País de Gales", "Irlanda do Norte"]
 for (let i = 0; i < paises.length; i ++) {
-    console.log(`${paises[i]} faz parte do Reino Unido.`)
+    console.log(`${paises[i]} fazem parte do Reino Unido.`)
 }
 
 /*
