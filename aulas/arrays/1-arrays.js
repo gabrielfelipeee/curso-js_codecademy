@@ -19,6 +19,7 @@ let array = [true, 'Maria', 15] // Array com diferentes elementos.
 
 
 
+
 /*
 Acessar elementos de uma array:
 
